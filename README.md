@@ -4,6 +4,24 @@
 
 ---
 
+## Skills & technologies
+
+`HTML/CSS`
+
+
+## Repository structure
+
+Key files and folders (not exhaustive):
+
+- `README.md`
+- `index.html`
+
+
+## How it works
+
+Start with the main source files listed in the repository structure. Review configuration and dependencies before building or running the code.
+
+
 ## Maintenance & Audit
 
 - **Audit date:** 10 November 2026

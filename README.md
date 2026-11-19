@@ -1,26 +1,47 @@
 # for-you-v2
-## just a personal repo not for open source
 
+A personal, single-page birthday greeting built with HTML, CSS, and JavaScript. It is a standalone variant of the personal greeting page, not a general-purpose web application.
 
----
+**Live page:** https://nirmalyalenka.github.io/for-you-v2/
 
-## Skills & technologies
+## What the page contains
 
-`HTML/CSS`
+- A birthday greeting card with animated background and entrance effects.
+- Sections for memories, a relationship timeline, and reasons for appreciation.
+- A photo-gallery layout with hover effects.
+- Heart, confetti, and fireworks-style celebration effects.
+- A love-note dialog and a small sound effect.
 
+The current repository contains a single root-level **index.html** with embedded markup, styles, and JavaScript. No package manifest, build system, or separate asset directory is present in the checked-in root tree.
+
+## Run locally
+
+1. Clone or download the repository.
+2. Open **index.html** in a modern browser, or serve the repository root with a static server:
+
+       python -m http.server 8000
+
+3. Open http://localhost:8000.
+
+No npm install or compilation step is defined. Try sound and celebration controls after interacting with the page because browsers may restrict media before a user gesture.
 
 ## Repository structure
 
-Key files and folders (not exhaustive):
+| Path | Purpose |
+|---|---|
+| **index.html** | Complete standalone page, including CSS, message content, gallery markup, and interactions |
+| **README.md** | Project overview and usage notes |
 
-- `README.md`
-- `index.html`
+## Privacy and sharing
 
+This is a personalized page. Review the message text and any embedded images or personal content before publishing or sharing the GitHub Pages URL. Do not publish private photographs, names, or contact details without permission.
 
-## How it works
+## Limitations and verification
 
-Start with the main source files listed in the repository structure. Review configuration and dependencies before building or running the code.
-
+- The page is static and does not include a backend or server-side storage.
+- No package manager or automated test suite is present in the repository root.
+- The source was inspected, but the page has not been browser-tested as part of this documentation update.
+- No accessibility, mobile-layout, or media-playback test is claimed.
 
 ## Maintenance & Audit
 
